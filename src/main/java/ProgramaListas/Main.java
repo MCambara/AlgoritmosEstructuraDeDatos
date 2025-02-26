@@ -11,6 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Crear la lista desde el teclado
+        System.out.println("Por que da error?");
         System.out.println("Ingresa números para agregar a la lista (Ingresa -1 para terminar):");
         int valor;
         while ((valor = scanner.nextInt()) != -1) {
@@ -67,5 +68,6 @@ public class Main {
                     System.out.println("Opción no válida, intenta de nuevo.");
             }
         }
+        
     }
 }
